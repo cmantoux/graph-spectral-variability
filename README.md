@@ -109,7 +109,6 @@ Xs_mh_history = result["history"]["Xs_mh"]
 ls_mh_history = result["history"]["ls_mh"]
 zs_mh_history = result["history"]["zs_mh"]
 ```
-```
 
 #### Working on binary data
 
