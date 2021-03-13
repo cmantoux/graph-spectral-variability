@@ -79,7 +79,7 @@ A_mcmc, X_mcmc, l_mcmc, log_lk = mcmc.mh_mask(A, mask, theta, n_iter=10000)
 
 #### Mixture model estimation
 
-The mixture model usage is very similar to the base model:
+The mixture model usage is very similar to the base model:
 
 ```python
 ```python
