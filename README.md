@@ -7,7 +7,7 @@ This repository hosts the code for the paper of the same name.
 The code was tested on Python 3.8. In order to run the code, the Python packages listed in `requirements.txt` are needed. They can be installed for instance with with `conda`:
 
 ```
-onda create -n gsv -c conda-forge --file requirements.txt
+conda create -n gsv -c conda-forge --file requirements.txt
 conda activate gsv
 ```
 
