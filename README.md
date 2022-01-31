@@ -1,6 +1,6 @@
 # Understanding the Spectral Variability of Graph Data Sets through Statistical Modeling on the Stiefel Manifold
 
-This repository hosts the code for the paper of the same name. 
+This repository hosts the code for the [paper of the same name](https://www.mdpi.com/1099-4300/23/4/490).
 
 ## Requirements
 
@@ -36,7 +36,7 @@ As = ... # Array of adjacency matrices with shape (n_samples, n, n)
 p = ... # Number of eigenvectors used in the model
 
 # Initialize the parameter theta and the MCMC on X (Xs_mh) and lambda (ls_mh)
-theta, Xs_mh, ls_mh = saem.init_saem(As, p=p) # to a perform gradient ascent on X, use saem.init_saem_grad instead
+theta_init, Xs_mh, ls_mh = saem.init_saem(As, p=p) # to a perform gradient ascent on X, use saem.init_saem_grad instead
 
 # Run the MCMC-SAEM algorithm for 100 iterations with 20 MCMC steps per SAEM iteration
 # By default, the algorithm does not store the MCMC values of X and lambda along the trajectory.
