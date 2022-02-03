@@ -25,7 +25,7 @@ The experiments presented on simulated data can be reproduced by running the fol
 
 ## How to run the algorithm
 
-The implementation we provide can be used on other data sets of weighted or binary networks. It takes as input a list of adjacency matrices with shape `(n_samples, n, n)``.  In order to run the MCMC-SAEM algorithm and retrieve the optimization results, use the following code.
+The implementation we provide can be used on other data sets of weighted or binary networks. It takes as input a list of adjacency matrices with shape `(n_samples, n, n)`.  In order to run the MCMC-SAEM algorithm and retrieve the optimization results, use the following code.
 
 #### Parameter estimation
 
