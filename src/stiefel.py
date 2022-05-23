@@ -33,8 +33,8 @@ def get_X_(X):
 
 
 def getAB(X, D):
-    """Warning : not exactly B, need to multiply by X_"""
-    return X.T@D, D-X@X.T@D
+    X_ = get_X_(X)
+    return X.T@D, X_.T@D
 
 
 def discr(X, Y):
