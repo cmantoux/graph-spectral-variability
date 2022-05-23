@@ -1,6 +1,6 @@
-# Understanding the Spectral Variability of Graph Data Sets through Statistical Modeling on the Stiefel Manifold
+# An Eigendecomposition Model for Data Sets of Networks
 
-This repository hosts the code for the [paper of the same name](https://www.mdpi.com/1099-4300/23/4/490).
+This repository hosts the code for [this paper](https://www.mdpi.com/1099-4300/23/4/490).
 
 ## Requirements
 
