@@ -9,7 +9,7 @@ This file contains three categories of functions.
 - init_saem initializes Xs, ls and theta using the eigendecomposition of the adjacency matrices.
 - init_saem_grad build on init_saem and perform hybrid MCMC-SAEM steps where the sampling on X is replaced with a gradient ascent step.
 - init_saem_cluster executes the K-Means algorithm on the adjacency matrices to initialize the clusters, and call init_saem on each of these clusters.
-- init_saem_cluster proceeds as with init_saem_grad for the mixture model.
+- init_saem_grad_cluster proceeds as with init_saem_grad for the mixture model.
 
 3) Result permutation functions
 - map_to_ground_truth takes the output of the MCMC-SAEM algorithm and permute the columns of F so as to match the ground truth, which allows computing estimation errors.
