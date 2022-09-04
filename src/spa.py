@@ -4,7 +4,7 @@ which allow computing the Saddle-Point Approximation of the normalizing
 constant of the von Mises-Fisher distribution on the Stiefel manifold.
 For further details, we refer the reader to the original paper.
 
-The main function in this file is log_vmf(F), which compute the logarithm of the saddle-point approximation.
+The main function in this file is log_vmf(F), which computes the logarithm of the saddle-point approximation.
 
 The functions are compiled with Numba in order to accelerate the code.
 """
